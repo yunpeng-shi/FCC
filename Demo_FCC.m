@@ -32,7 +32,8 @@ rounding = 0; % default with no additional thresholding
 % confidence/probability that X(i,j) is a good keypoint match.
 tic
 S = FCC(XMat, mat_size, path_length, n_iter, n_batch, rounding);
-X_est = S>0.5; % obtain the refined keypoint match by selecting matches in X with high S-values.
+X_est = S>0.5; % obtain the refined keypoint match by selecting matches in X with high S-values. 
+               % Choose threshold as 0.9 or 0.99 if precision is a lot more important than recall.
 toc
 
 % Compute Jaccard distance as an error metric:
