@@ -9,4 +9,12 @@ Yunpeng Shi, Shaohan Li, Tyler Maunu, Gilad Lerman. Filtering by Cluster Consist
 
 Checkout the demo code ``Demo_FCC.m``.
 
-The function ``FCC.m`` takes matching matrix (Adjacency matrix of the keypoint matching graph, where the keypoints (nodes) are grouped by images) as input, and output the statistics matrix that tells you for each keypoint match its probability of being a good match. In principle, the input can also be a SIFT feature (or other features) similarity matrix (so not necessarily binary).
+## Flexible Input and Informative Output
+
+The function ``FCC.m`` takes matching matrix (Adjacency matrix of the keypoint matching graph, where the keypoints (nodes) are grouped by images) as input. In principle, the input can also be a SIFT feature (or other features) similarity matrix (so not necessarily binary). This function outputs the statistics matrix that tells you for each keypoint match its probability of being a good match. Thus, it contains the confidence information, not just classification results. One can set different threshold levels (tradeoff between precision and recall) for the statistics matrix to obtain the filtered matches, depending on the tasks. 
+
+## A novel Synthetic Model
+
+We provide a new synthetic model that realistically mirror the real scenario, and allowing control of different parameters.
+
+
