@@ -15,6 +15,5 @@ The function ``FCC.m`` takes matching matrix (Adjacency matrix of the keypoint m
 
 ## A novel Synthetic Model
 
-We provide a new synthetic model that realistically mirror the real scenario, and allowing control of different parameters.
-
+We provide a new synthetic model that realistically mirror the real scenario, and allowing control of different parameters. Please check ``FCC_synthetic_data.m``. It generates a set of synthetic cameras, images, 3d points and 2d keypoints. It allows user to control the sparsity in camera correspondences and keypoint matches, and the corruption level and corruption mode (elementwise or inlier-outlier model) for keypoint matches.
 
