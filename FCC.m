@@ -9,7 +9,7 @@
 %%    matches between i-th and j-th images. For example, Xij(k,l)=1 if and only if the k-th keypoint 
 %%    in image i is matched to the l-th keypoint in image
 %% mat_size: a vector of length n, whose i-th element is the number of keypoints in camera i
-%% path_length: count paths that connects keypoints i,k in 2 steps, and j,k in 2 steps 
+%% path_length: default =2; count paths that connects keypoints i,k in 2 steps, and j,k in 2 steps 
 %%              (longer paths are not needed as we use message-pssing)
 %% n_iter: number of iterations. default is 10. For large datasets one may use a smaller number 
 %%         and use iterative thresholding to accelarate the convergence
