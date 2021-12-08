@@ -7,7 +7,33 @@ Yunpeng Shi, Shaohan Li, Tyler Maunu, Gilad Lerman. Scalable Cluster-Consistency
 
 ## Usage
 
-Checkout the demo code ``Demo_FCC.m``.
+Checkout the demo code ``Demo_FCC.m``. A sample output is as follows:
+
+```
+>> Demo_FCC
+generate initial camera adjacency matrix
+creat camera intrinsic matrices. f (focal length) is set to 5000 pixel sizes
+generate 3d point cloud (a sphere)
+generate camera locations from 3d gaussian dist with radius constraints
+generating 2d keypoints from camera projection matrices
+generating and corrupting keypoint matches
+start running FCC
+iteration 1 Completed!
+iteration 2 Completed!
+iteration 3 Completed!
+iteration 4 Completed!
+iteration 5 Completed!
+iteration 6 Completed!
+iteration 7 Completed!
+iteration 8 Completed!
+iteration 9 Completed!
+iteration 10 Completed!
+Elapsed time is 0.782890 seconds.
+classification error (Jaccard distance) = 0.031733
+precision rate = 0.973654
+recall rate = 0.994319
+
+```
 
 ## Flexible Input and Informative Output
 
