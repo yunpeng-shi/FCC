@@ -35,7 +35,7 @@ recall rate = 0.994319
 
 ```
 
-![histogram](https://github.com/yunpeng-shi/FCC/blob/main/hist.jpg)
+![histogram](https://github.com/yunpeng-shi/FCC/blob/main/hist.jpg = 100x100)
 
 ## Flexible Input and Informative Output
 
