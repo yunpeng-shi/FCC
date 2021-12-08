@@ -34,7 +34,7 @@ precision rate = 0.973654
 recall rate = 0.994319
 ```
 
-<img src="https://github.com/yunpeng-shi/FCC/blob/main/hist.jpg" width="1000" height="800">
+<img src="https://github.com/yunpeng-shi/FCC/blob/main/hist.jpg" width="500" height="400">
 
 
 ## Flexible Input and Informative Output
