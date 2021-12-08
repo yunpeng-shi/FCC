@@ -33,7 +33,7 @@ classification error (Jaccard distance) = 0.031733
 precision rate = 0.973654
 recall rate = 0.994319
 ```
-It often gives almost perfect separation between good and bad matches even when a large fraction of clean keypoint matches are removed or corrupted. The classification result is often better (and much faster) than spectral-based methods. The following is an example of histograms of our FCC statistics for clean and wrong keypoint matches.
+It often gives almost perfect separation between good and bad matches even when a large fraction of clean keypoint matches are removed or corrupted. The classification result is often better (and much faster) than spectral-based methods. The following is an example of histograms of our FCC statistics for clean and wrong keypoint matches. Our statistic measures the confidence that a match is clean (good).
 
 <img src="https://github.com/yunpeng-shi/FCC/blob/main/hist.jpg" width="500" height="400">
 
