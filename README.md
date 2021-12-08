@@ -33,7 +33,7 @@ classification error (Jaccard distance) = 0.031733
 precision rate = 0.973654
 recall rate = 0.994319
 ```
-
+It gives almost exact separation between good and bad matches. The classification result is often better (and much faster) than spectral-based methods.
 <img src="https://github.com/yunpeng-shi/FCC/blob/main/hist.jpg" width="500" height="400">
 
 
