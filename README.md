@@ -33,7 +33,7 @@ classification error (Jaccard distance) = 0.031733
 precision rate = 0.973654
 recall rate = 0.994319
 
-
+<img src="https://github.com/yunpeng-shi/FCC/blob/main/hist.jpg" width="100" height="100">
 ![histogram](https://github.com/yunpeng-shi/FCC/blob/main/hist.jpg)
 
 ```
