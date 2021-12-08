@@ -35,6 +35,8 @@ recall rate = 0.994319
 
 ```
 
+![histogram](https://github.com/yunpeng-shi/FCC/blob/main/hist.jpg)
+
 ## Flexible Input and Informative Output
 
 The function ``FCC.m`` takes matching matrix (Adjacency matrix of the keypoint matching graph, where the indices of keypoints (nodes) are grouped by images) as input. In principle, the input can also be a SIFT feature (or other features) similarity matrix (so not necessarily binary). This function outputs the statistics matrix that tells you for each keypoint match its probability of being a good match. Thus, it contains the confidence information, not just classification results. One can set different threshold levels (tradeoff between precision and recall) for the statistics matrix to obtain the filtered matches, depending on the tasks. 
