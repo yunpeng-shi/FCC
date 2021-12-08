@@ -63,7 +63,6 @@ legend('good match', 'bad match');
 xlabel('cluster consistency statistic')
 ylabel('bin count')
 title('Histograms of FCC Statistics')
-
 set(gca,'FontSize',14)
 
 
