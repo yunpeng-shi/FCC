@@ -12,7 +12,7 @@ Checkout the demo code ``Demo_FCC.m``. A sample output is as follows:
 ```
 >> Demo_FCC
 generate initial camera adjacency matrix
-creat camera intrinsic matrices. f (focal length) is set to 5000 pixel sizes
+create camera intrinsic matrices. f (focal length) is set to 5000 pixel sizes
 generate 3d point cloud (a sphere)
 generate camera locations from 3d gaussian dist with radius constraints
 generating 2d keypoints from camera projection matrices
