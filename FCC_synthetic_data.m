@@ -38,7 +38,7 @@ function[XMat, XMat_gt, mat_size] = FCC_synthetic_data(n,n_pt,p,q0,q1,q2)
     m = length(Ind_i);
 
     
-    disp('creat camera intrinsic matrices. f (focal length) is set to 5000 pixel sizes')
+    disp('create camera intrinsic matrices. f (focal length) is set to 5000 pixel sizes')
     % camera intrinsic matrix (image dimension is 1000 by 1000 pixels)
     f=5000; px=500; py=500;
     K=[f,0,px; 0,f,py; 0,0,1];
