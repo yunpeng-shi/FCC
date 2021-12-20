@@ -38,9 +38,9 @@ toc
 
 % Compute Jaccard distance as an error metric:
 Xcap = X_g.*X_est;
-count_cap = full(sum(Xcap, 'all')); % union of good and estimated matches
-count_cup = full(sum(X_g, 'all') + sum(X_est, 'all') - count_cap); % difference between good and estimated matches
-JD = 1-count_cap/count_cup;
+count_cap = full(sum(Xcap, 'all')); % intersection of good and estimated matches
+count_cup = full(sum(X_g, 'all') + sum(X_est, 'all') - count_cap); % union of good and estimated matches
+JD = 1-count_cap/count_cup; % difference over union
 fprintf('classification error (Jaccard distance) = %f\n',JD)
 
 % Compute precision
