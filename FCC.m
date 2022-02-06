@@ -2,12 +2,15 @@
 
 %% Given input matching matrix X, outputs the statistics matrix S
 
+%% X must be stored in sparse matrix format
+
 
 %% Input:
 
 %% X: (i,j)-th block of X (denoted as Xij) is the matching matrix encoding the keypoint
 %%    matches between i-th and j-th images. For example, Xij(k,l)=1 if and only if the k-th keypoint 
 %%    in image i is matched to the l-th keypoint in image. X is not necessarily binary. 
+%%    X must be stored in sparse matrix format
 %%    In principle, one can also use SIFT similarity matrix, though not tested in the paper.
 %% mat_size: a vector of length n, whose i-th element is the number of keypoints in camera i
 %% path_length: default = 2; count paths that connects keypoints i,k in 2 steps, and j,k in 2 steps 
