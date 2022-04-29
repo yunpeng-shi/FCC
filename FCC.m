@@ -14,7 +14,7 @@
 %%    In principle, one can also use SIFT similarity matrix, though not tested in the paper.
 %% mat_size: a vector of length n, whose i-th element is the number of keypoints in camera i
 %% path_length: default = 2; count paths that connects keypoints i,k in 2 steps, and j,k in 2 steps 
-%%              (longer paths are not needed as we use message-pssing)
+%%              (longer paths are not needed as we use message-pssing). If the dataset is too large, choose path_length = 1.
 %% n_iter: number of iterations. default is 10. For large datasets one may use a smaller number 
 %%         and use iterative thresholding to accelarate the convergence
 %% n_batch: number of batches (use more number of batches if your computer has small memory)
