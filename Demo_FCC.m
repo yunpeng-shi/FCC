@@ -24,6 +24,8 @@ X_b = XMat - XMat_gt.*XMat; % bad matches within observed ones, unknown, only fo
 % parameters for running FCC
 n_iter = 10; % number of iterations
 path_length = 2; % count paths that connects keypoints i,k in 2 steps, and j,k in 2 steps (longer paths are not needed as we use message-pssing)
+%% one may consider setting path_length = 1 for large datasets (if path length 2 is too slow), which avoids matrix multiplication and saves time and memory.
+
 n_batch = 8; % number of batches (use more number of batches if your computer has small memory)
 rounding = 0; % default with no additional thresholding
 
